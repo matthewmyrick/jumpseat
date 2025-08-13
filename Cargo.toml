@@ -1,0 +1,15 @@
+[package]
+name = "jumpseat"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+anyhow = "1.0"
+crossterm = "0.29.0"
+ratatui = "0.29.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+directories = "6.0.0"
+fuzzy-matcher = "0.3"
+
